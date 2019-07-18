@@ -1,0 +1,12 @@
+/**index.wxss**/
+
+.picker,
+.title {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.title {
+    text-align: left
+}

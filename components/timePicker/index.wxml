@@ -1,0 +1,8 @@
+<!-- components/timePicker/index.wxml -->
+<view>
+  <picker disabled="{{disabled}}" mode="multiSelector" bindchange="pickerChange" bindcolumnchange="pickerColumnChange" bindcancel="pickerCancel" value="{{pickerIndex}}" range="{{pickerArray}}" range-key="{{'name'}}">
+    <view>
+      <input placeholder="{{inputHolder}}" class="weui-input" disabled="{{true}}" value="{{dateString}}"></input>
+    </view>
+  </picker>
+</view>

@@ -1,0 +1,3 @@
+<!-- index.wxml -->
+<view class="title">时间选择</view>
+<time-picker class="picker" inputHolder="请选择时间" bind:onPickerChange="onPickerChange"></time-picker>
