@@ -1,3 +1,9 @@
 <!-- index.wxml -->
 <view class="title">时间选择</view>
-<time-picker class="picker" inputHolder="请选择时间" bind:onPickerChange="onPickerChange"></time-picker>
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}" wx:key="{{index}}">
+    <radio value="{{item.value}}" checked="{{item.checked}}" />
+    {{item.name}}
+  </label>
+</radio-group>
+<time-picker mode="{{mode}}" class="picker" placeholder="请选择时间" bind:onPickerChange="onPickerChange"></time-picker>
