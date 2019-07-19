@@ -1,6 +1,5 @@
 {
     "usingComponents": {
         "time-picker": "../../../components/timePicker/index"
-
     }
 }

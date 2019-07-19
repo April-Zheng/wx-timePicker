@@ -8,7 +8,6 @@ Page({
         mode: 'date'
     },
     onPickerChange(e) {
-
         console.log("onPickerChange", e)
     },
     radioChange: function(e) {
